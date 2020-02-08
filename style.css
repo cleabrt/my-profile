@@ -1,0 +1,83 @@
+/*body*/
+body {
+	background-color: #D9FAFF;
+	font-family:'Gelasio', serif;
+	color:#005792;
+}
+/*titles*/
+h1,h2 {
+	font-family: 'Encode Sans Semi Condensed', sans-serif;
+	text-align: center;
+}
+h1 {
+	font-size: 40px;
+	font-weight: 600;
+	color: #00204A;
+}
+h2 {
+	font-size: 30px;
+	font-weight: 500;
+	color: #005792;
+	margin-top: 0px;
+}
+/*links*/
+a{
+	text-decoration: none;
+	text-align: center;
+	font-weight: 500;
+	color:#005792;
+	transform: color 5s ease;
+}
+a:hover {
+	text-decoration: underline;
+}
+/*class*/
+.main {
+	width: auto;
+	margin:10px 10px;
+	text-align: center;
+}
+.boxes {
+	background-color: : #D9FAFF;
+	width: auto;
+	margin: 15px auto;
+	padding: 20px;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+}
+#introduction p {
+	margin-top: 120px;
+	margin-bottom: 30px;
+	font-size: 18px;
+}
+#profile {
+	width: 170px; 
+	position: absolute;
+	left: 40px;  
+	top:15px;                
+	margin: auto;
+	border-radius: 90px;
+	padding: 20px;
+}
+.button{
+	text-align: center;
+	background-color:#005792; 
+	border-radius: 3px;
+	color:  #D9FAFF;
+	padding: 10px 10px;
+}
+.list {
+	list-style: none;
+	padding-left: 0px;
+}
+#list-inline li {
+	 display: inline;
+	 padding: 10px
+}
+#list-inline i {
+	font-size: 40px;
+}
+
+
+
